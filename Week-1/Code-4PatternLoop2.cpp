@@ -3,10 +3,10 @@ To print the following pattern with number of rows to be entered by user -
 
 if n=4;   
 
-1010101
-101010
-10101
-1010
+1
+01
+101
+0101
 
 */
 
@@ -14,18 +14,17 @@ if n=4;
 using namespace std;
 
 int main(){
+    int n=4;
 
-    int n;
-    cout << "Enter the number of rows for the pattern: ";
+    cout << "Enter the number of rows" << endl;
     cin >> n;
-    
-    for(int i = 0 ; i < n ; i++)
+
+    for(int i=0 ; i<n ; i++)
     {
-        for(int j = i + 1 ; j < 2 * n ; j++)
+        for(int j=0 ; j<i+1 ; j++)
         {
-            cout << ( i + j ) % 2;
+            cout << (i+j+1)%2;
         }
         cout << endl;
     }
-    
 }
