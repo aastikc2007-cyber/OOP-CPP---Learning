@@ -1,5 +1,5 @@
 /*
-To make changes in user input array such that all the zeros values comes to end of array and no zeros value at starting
+To make changes in user input array such that all the zeros values comes to end of array and non zeros value at starting
 of array without changing the arrangement of nonzero numbers.
 Example:
 a[]={0,1,2,0,3,0,4,0};
