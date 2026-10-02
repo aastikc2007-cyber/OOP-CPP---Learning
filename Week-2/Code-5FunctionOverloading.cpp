@@ -73,4 +73,5 @@ int main(){
         cin >> r;
         cout << "\nThe area of " << shape << " is " << Area(r);
     }
+    return 0;
 }
